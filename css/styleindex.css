@@ -1,0 +1,20 @@
+body{
+    background-color: #82d5fc;
+    font-size: 22px;
+    color: rgb(10, 107, 204);
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    color: rgb(244, 247, 46);
+    background-color:rgb(95, 156, 226);
+    text-align: center;
+}
+h2{
+    color: navy;
+}
+li{
+    color: navy;
+}
+a{
+    color: rgb(8, 116, 110);
+}
