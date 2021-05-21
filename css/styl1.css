@@ -1,0 +1,66 @@
+h1{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(191, 238, 238);
+    margin: 5px;
+    padding: 10px;
+}
+.introducao{
+    background-color: royalblue;
+    border: black solid 2px;
+    margin: 5px;
+    padding: 10px;
+}
+.bloco{
+    background-color: rgb(10, 151, 156);
+    border: black solid 2px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.seletores_geral{
+    background-color: rgb(93, 75, 126);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
+.seletores{
+    background-color: rgb(93, 48, 104);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
+.id{
+    background-color: rgba(119, 1, 64, 0.589);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
+.class{
+    background-color: rgba(92, 5, 109, 0.459);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;;
+}
+.pseudo{
+    background-color: rgb(34, 92, 139);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
+.pe{background-color: rgb(4, 128, 117);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
+.pc{
+    background-color: rgb(3, 72, 151);
+    margin: 5px;
+    padding: 10px;
+    border: black solid 2px;
+}
