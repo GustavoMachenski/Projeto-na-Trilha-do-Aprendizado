@@ -5,53 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon2.ico" type="image/x-ico">
+    <link rel="stylesheet" href="css/stylepadrao.css">
     <title>HTML - Definições </title>
 </head>
 <body>
-    <h1>HTML</h1>
-    <p>É uma <b> Linguagem de Marcação de Hipertexto </b> baseada em tags criada na década de 1990 por Tim Berners-Lee. 
-        <p><figure>
-                <img src="img/TimBernersLee.jpg" alt="Tim Berners-Lee">
+    <header>
+        <div class="cabeca">
+            <p>Projeto na Trila do Aprendizado</p>
+        </div>
+        <div class="navegacao">
+            <nav>
+                <a href="sobre.html">Sobre</a>
+                <a href="sites.html">Sites Git</a>
+                <a href="conteudo.html">Conteudo</a>
+                <a href="index.html">Introdução</a>
+    
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h1>HTML</h1>
+            <p>É uma <b> Linguagem de Marcação de Hipertexto </b> baseada em tags criada na década de 1990 por Tim Berners-Lee.
+                <p><figure>
+                        <img src="img/TimBernersLee.jpg" alt="Tim Berners-Lee">
+                    </figure>
+                </p>
+            A HTML é utilizada para publicação de conteúdo em hipertexto, tais como, <strong>texto, imagem, áudio e vídeo</strong>, e que podem ser <i>vinculados </i> através de <em>hyperlinks</em>.<p>
+                <figure>
+                    <img src="img/html.jpg" alt="Imagem de um documento HTML" />
+                    <figcaption>HTML</figcaption>
+                </figure>
+            <ul>
+                <li>1990 - Criação do HTML</li>
+                <LI>1995 - Versão 2.0</LI>
+                <li>1997 - Versão 3.2</li>
+                <li>1999 - Versão 4.01</li>
+                <li>2014 - Versão HTML 5</li>
+            </ul>
+            <ol>
+                <li>1990 - Criação do HTML</li>
+                <LI>1995 - Versão 2.0</LI>
+                <li>1997 - Versão 3.2</li>
+                <li>1999 - Versão 4.01</li>
+                <li>2014 - Versão HTML 5</li>
+            </ol>
+            <dl>
+                <dt>1990 - Criação do HTML</dt>
+                <dd>Invenção da Linguagem HTML</dd>
+                <dt>1995 - Versão 2.0</dt>
+                <dd>Formalizar todas as caracteristicas HTML que ja eram utilizadas</dd>
+                <dt>1997 - Versão 3.2</dt>
+                <dd>Permite a criação de tabelas, applets e texto flutuante ao redor de imagens</dd>
+                <dt>1999 - Versão 4.01</dt>
+                <dd>Suporte para opções multimídias,folha de estilo e melhorar as práticas de marcação</dd>
+                <dt>2014 - Versão HTML 5</dt>
+                <dd>Aperfeiçoar a experiencia da World Wide Web para os desenvolvedores e usuários finais</dd>
+            </dl>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Internet1.jpg/298px-Internet1.jpg" alt="imagem www">
             </figure>
-        </p>
-    A HTML é utilizada para publicação de conteúdo em hipertexto, tais como, <strong>texto, imagem, áudio e vídeo</strong>, e que podem ser <i>vinculados </i> através de <em>hyperlinks</em>.<p>
-        <figure>
-            <img src="img/html.jpg" alt="Imagem de um documento HTML" />
-            <figcaption>HTML</figcaption>
-        </figure>
-    <ul>
-        <li>1990 - Criação do HTML</li>
-        <LI>1995 - Versão 2.0</LI>
-        <li>1997 - Versão 3.2</li>
-        <li>1999 - Versão 4.01</li>
-        <li>2014 - Versão HTML 5</li>
-    </ul>
-    <ol>
-        <li>1990 - Criação do HTML</li>
-        <LI>1995 - Versão 2.0</LI>
-        <li>1997 - Versão 3.2</li>
-        <li>1999 - Versão 4.01</li>
-        <li>2014 - Versão HTML 5</li>
-    </ol>
-    <dl>
-        <dt>1990 - Criação do HTML</dt>
-        <dd>Invenção da Linguagem HTML</dd>
-        <dt>1995 - Versão 2.0</dt>
-        <dd>Formalizar todas as caracteristicas HTML que ja eram utilizadas</dd>
-        <dt>1997 - Versão 3.2</dt>
-        <dd>Permite a criação de tabelas, applets e texto flutuante ao redor de imagens</dd>
-        <dt>1999 - Versão 4.01</dt>
-        <dd>Suporte para opções multimídias,folha de estilo e melhorar as práticas de marcação</dd>
-        <dt>2014 - Versão HTML 5</dt>
-        <dd>Aperfeiçoar a experiencia da World Wide Web para os desenvolvedores e usuários finais</dd>
-    </dl>
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Internet1.jpg/298px-Internet1.jpg" alt="imagem www">
-    </figure>
-
-    <h2>TAGS</h2>
-    <p>As <big>tags</big> definem ao navegador a marcação de conteúdo.<br> As tags tem funcionalidades específicas. Sem o uso de tags o navegador exibe um texto plano</p>
-    <p>As tags podem possuir atributos, ou seja, são parâmetros que definem algun tipo de informação extra ao<font color="blue" size = "14"> navegador</font></p>
-
+        </div>
+        <div class="conteudo">
+            <h2>TAGS</h2>
+            <p>As <big>tags</big> definem ao navegador a marcação de conteúdo.<br> As tags tem funcionalidades específicas. Sem o uso de tags o navegador exibe um texto plano</p>
+            <p>As tags podem possuir atributos, ou seja, são parâmetros que definem algun tipo de informação extra ao navegador</p>
+        </div>
+    </main>
+    <footer>
+        <div><p>© Todos direitos reservados.</p></div>
+    </footer>
 </body>
 </html>
