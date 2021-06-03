@@ -92,6 +92,138 @@ footer{
     background-color: #6B5724;
     border-radius: 2px;
 }
+h1{
+    color: rgb(80, 45, 2);
+}
+.paginacao{
+    margin: 20px 2px 30px 2px;
+    padding: 2px 9px 2px 9px;
+    text-align: center;
+}
+.paginacao a{
+    color: rgb(114, 50, 4);
+}
+.paginacao a:hover{
+    color: rgb(114, 50, 4);
+    background-color:rgb(252, 140, 5); 
+}
+.seletores_geral{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+.introducaos{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+.id{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+.class{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+.pc{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+.pe{
+    background-color: #6B6045;
+    color: ghostwhite;
+}
+p{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.imagemlado{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    left: px;
+    float: right;
+}
+.top{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    text-align: center;
+    position: relative;
+    background-color: springgreen;
+    width: 50px;
+    height: 20px;
+    bottom: 10px;
+    left: 380px;
+}
+.right{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    text-align: center;
+    position: relative;
+    background-color: springgreen;
+    width: 50px;
+    height: 20px;
+    bottom: 0px;
+    left: 450px;
+}
+.bottom{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    text-align: center;
+    position: relative;
+    background-color: springgreen;
+    width: 50px;
+    height: 20px;
+    top: 10px;
+    left: 380px;
+}
+.left{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    text-align: center;
+    position: relative;
+    background-color: springgreen;
+    width: 50px;
+    height: 20px;
+    bottom: 48px;
+    left: 310px;
+}
+.pertoimagem{
+    padding-top: 75px;
+}
+.camada1{
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    text-align: center;
+    background-color: lightblue;
+    width: 70px;
+    height: 40px;
+    z-index: 1;
+    left: 315px;
+}
+.camada2{
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    text-align: center;
+    background-color: lightblue;
+    width: 70px;
+    height: 40px;
+    z-index: 2;
+    bottom: 15px;
+    left: 330px;
+}
+.como {
+    padding-bottom:80px;
+}
 
 
 

@@ -4,76 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylepadrao.css">
     <title>RDE09-Multimídias</title>
 </head>
 <body>
-    <h1>Incorporando Multimídia ao site</h1>
-    <h2>Tag iframe</h2>
-
-    <p>A tag <font color ="red">iframe</font> é utlizada para incorporar outro documento dentro do seu documento HTML, como se fosse uma jenela interativa dentro do seu site.</p>
-
-    <h3>Sintese</h3>
-    <p>Sua sintese é:</p>
-    <figure>
-        <img src="img/sinteseiframe.png" alt="Sintese">
-    </figure>
-
-    <h3>Incorporar outro site dentro do site</h3>
-    <iframe src="http://irati.ifpr.edu.br" height="300" width="300"></iframe>
-
-    <h3>Imbutir audio no site</h3>
-    <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50984741&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juan_mj_10" title="Juan Juncos" target="_blank" style="color: #cccccc; text-decoration: none;">Juan Juncos</a> · <a href="https://soundcloud.com/juan_mj_10/led-zeppelin-rock-n-roll" title="Led Zeppelin - Rock N&#x27; Roll" target="_blank" style="color: #cccccc; text-decoration: none;">Led Zeppelin - Rock N&#x27; Roll</a></div>
-
-    <h3> Imcorporar vídeos ao site </h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <h2>Tag video</h2>
-    <p>A tag video é usada para incorporar videos que estejam em uma pasta local, ou seja, não estão em outros sites como no youtube por exemplo.</p>
-    <h3>Sintese</h3>
-    <p>Sua sintese é:</p>
-    <figure>
-        <img src="img/sintesevideo.png" alt="Sintese tag video">
-    </figure>
-    <p>Obs: A tag video pode carregar varios arquivos, caso algum falhe tera outro reserva para que o conteudo seja exibo independente doque acontecer com o pricipal.</p>
-
-    <video poster="video/Bike.jpg" controls>
-        <source src="video/_Bike.mp4" type="video/mp4">
-        <source src="video/Bike.webm" type="video/webm">
-        <source src="video/Bike.ogv"  type="video/ogv">
-    </video>
-
-    <h2>Tag de audio</h2>
-    <p>A tag de audio é usada para incorporar audios em seu site, apesar de muitos audios como musicas e outros serem protegidos pelos direitos autorais o youtube fornece uma blibioteca de musicas que não tem direitos autorias e podem serem usadas em seus sites, a unica coisa é a ser feita é criar um canal no youtube, assim você ja tem acesso a esta blibioteca.
-    <a href="https://studio.youtube.com/channel/UCbgXCxd9qTAnbUe0ZeeHXaQ/music" target="_blank">Clique para ver este recurso.</a>
-
-    <h3>Sintese</h3>
-    <p>Sua sintese é:</p>
-    <figure>
-        <img src="img/sinteseaudio.png" alt="">
-    </figure>
-    <p>Obs: Da mesma forma que a tag video essa tag tambem aceita mas de um arquivo caso algum falhe.</p>
+    <header>
+        <div class="cabeca">
+            <p>Projeto na Trila do Aprendizado</p>
+        </div>
+        <div class="navegacao">
+            <nav>
+                <a href="sobre.html">Sobre</a>
+                <a href="sites.html">Sites Git</a>
+                <a href="conteudo.html">Conteudo</a>
+                <a href="index.html">Introdução</a>
     
-    <audio preload="metadata" controls>
-        <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
-        <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
-        <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
-    </audio>
-
-    <h2>Tag Picture</h2>
-    <p>A tac picture pode ser asemelhada com uma pilha de imagens, cada um com um tamanho diferente, a diferença de tamanho entre as imagens se deve a adequação do site a varios tamanhos de tela, isso deixa o site mais dinamico e usuau.</p>
-    <h3>Sintese</h3>
-    <p>Sua sintese é:</p>
-    <figure>
-        <img src="img/sintesepicture.png" alt="Sintese da tag pcture.">
-    </figure>
-    <p>Obeserve que o tamanho maximo da tela varia de acordo com o tamanho da imagem.</p>
-    <picture>
-        <source media="(max-width:500px)" srcset="img/bike_110.jpg">
-        <source media="(max-width:700px)" srcset="img/bike_320.jpg">
-        <source media="(max-width:1000px)" srcset="img/bike_640.jpg">
-        <img src="img/bike_full.jpg" alt="Mtb Por-do-Sol">
-    </picture>
-
-
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h1>Incorporando Multimídia ao site</h1>
+            <h2>Tag iframe</h2>
+            <p>A tag <font color ="red">iframe</font> é utlizada para incorporar outro documento dentro do seu documento HTML, como se fosse uma jenela interativa dentro do seu site.</p>
+        </div>
+        <div class="conteudo">
+            <h3>Sintese</h3>
+            <p>Sua sintese é:</p>
+            <figure>
+                <img src="img/sinteseiframe.png" alt="Sintese">
+            </figure>
+        </div>
+        <div class="conteudo">
+            <h3>Incorporar outro site dentro do site</h3>
+            <iframe src="http://irati.ifpr.edu.br" height="300" width="300"></iframe>
+        </div>
+        <div class="conteudo">
+            <h3>Imbutir audio no site</h3>
+            <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50984741&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juan_mj_10" title="Juan Juncos" target="_blank" style="color: #cccccc; text-decoration: none;">Juan Juncos</a> · <a href="https://soundcloud.com/juan_mj_10/led-zeppelin-rock-n-roll" title="Led Zeppelin - Rock N&#x27; Roll" target="_blank" style="color: #cccccc; text-decoration: none;">Led Zeppelin - Rock N&#x27; Roll</a></div>
+        </div>
+        <div class="conteudo">
+            <h3> Imcorporar vídeos ao site </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="conteudo">
+            <h2>Tag video</h2>
+            <p>A tag video é usada para incorporar videos que estejam em uma pasta local, ou seja, não estão em outros sites como no youtube por exemplo.</p>
+        </div>
+        <div class="conteudo">
+            <h3>Sintese</h3>
+            <p>Sua sintese é:</p>
+            <figure>
+                <img src="img/sintesevideo.png" alt="Sintese tag video">
+            </figure>
+            <p>Obs: A tag video pode carregar varios arquivos, caso algum falhe tera outro reserva para que o conteudo seja exibo independente doque acontecer com o pricipal.</p>
+            <video poster="video/Bike.jpg" controls>
+                <source src="video/_Bike.mp4" type="video/mp4">
+                <source src="video/Bike.webm" type="video/webm">
+                <source src="video/Bike.ogv"  type="video/ogv">
+            </video>
+        </div>
+        <div class="conteudo">
+            <h2>Tag de audio</h2>
+            <p>A tag de audio é usada para incorporar audios em seu site, apesar de muitos audios como musicas e outros serem protegidos pelos direitos autorais o youtube fornece uma blibioteca de musicas que não tem direitos autorias e podem serem usadas em seus sites, a unica coisa é a ser feita é criar um canal no youtube, assim você ja tem acesso a esta blibioteca.
+            <a href="https://studio.youtube.com/channel/UCbgXCxd9qTAnbUe0ZeeHXaQ/music" target="_blank">Clique para ver este recurso.</a>
+        </div>
+        <div class="conteudo">
+            <h3>Sintese</h3>
+            <p>Sua sintese é:</p>
+            <figure>
+                <img src="img/sinteseaudio.png" alt="">
+            </figure>
+            <p>Obs: Da mesma forma que a tag video essa tag tambem aceita mas de um arquivo caso algum falhe.</p>
+            
+            <audio preload="metadata" controls>
+                <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+            </audio>
+        </div>
+        <div class="conteudo">
+            <h2>Tag Picture</h2>
+            <p>A tac picture pode ser asemelhada com uma pilha de imagens, cada um com um tamanho diferente, a diferença de tamanho entre as imagens se deve a adequação do site a varios tamanhos de tela, isso deixa o site mais dinamico e usuau.</p>
+            <h3>Sintese</h3>
+            <p>Sua sintese é:</p>
+            <figure>
+                <img src="img/sintesepicture.png" alt="Sintese da tag pcture.">
+            </figure>
+            <p>Obeserve que o tamanho maximo da tela varia de acordo com o tamanho da imagem.</p>
+            <picture>
+                <source media="(max-width:500px)" srcset="img/bike_110.jpg">
+                <source media="(max-width:700px)" srcset="img/bike_320.jpg">
+                <source media="(max-width:1000px)" srcset="img/bike_640.jpg">
+                <img src="img/bike_full.jpg" alt="Mtb Por-do-Sol">
+            </picture>
+        </div>
+        <div class="paginacao">
+            <a href="RED01.HTML">1</a>
+            <a href="RDE03-EX02-REF03-Gustavo_Machenski.html">2</a>
+            <a href="RDE04-Ex01-Gustavo_Machenski.html">3</a>
+            <a href="RDE05_Gustavo_Machenski.html">4</a>
+            <a href="RDE06-Gustavo_Machenski.html">5</a>
+            <a href="RDE07_Gustavo_Machenski.html">6</a>
+            <a href="rde08.html">7</a>
+            <a href="RDE_09_Gustavo_Machenski.html">8</a>
+            <a href="RDE10_Gustavo_Machenski.html">9</a>
+            <a href="RDE11.html">10</a>
+            <a href="RDE12-Gustavo_Machenski.html"">11</a>
+            <a href="RDE-14.html">12</a>
+        </div>
+    </main>
+    <footer>
+        <div><p>© Todos direitos reservados.</p></div>
+    </footer>
 </body>
 </html>
